@@ -7,41 +7,54 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:id="@+id/EditTextName"
-        android:hint="이름을 입력해 주세요"
-        android:inputType="text"/>
+        android:id="@+id/numOne"
+        android:hint="여기에 입력하세요"
+        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:id="@+id/EditTextWeight"
-        android:hint="몸무게를 입력해 주세요"
-        android:inputType="text"/>
-    <EditText
+        android:id="@+id/numTwo"
+        android:hint="여기에 입력하세요"
+        />
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/EditTextHeight"
+        android:id="@+id/bAdd"
         android:textSize="30dp"
-        android:hint="키를 입력해 주세요"
-        android:inputType="text"/>
+        android:text="더하기"
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/bSub"
         android:textSize="30dp"
-        android:text="입력완료"
-        android:id="@+id/btnDone"
+        android:text="빼기"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bMul"
+        android:textSize="30dp"
+        android:text="곱하기"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bDiv"
+        android:textSize="30dp"
+        android:text="나누기"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:textColor="#ff0000"
         android:textSize="40dp"
-        android:text="진단결과:"
+        android:textColor="#ff0000"
+        android:text="계산결과:"
         android:id="@+id/textResult"
         />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,4 +63,3 @@
         android:id="@+id/returnMain"
         />
 </LinearLayout>
-
