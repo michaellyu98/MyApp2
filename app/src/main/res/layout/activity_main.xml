@@ -28,22 +28,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnSearch"
-        android:text="구글검색하기"
-        android:textSize="30dp"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnSms"
-        android:text="문자보내기"
-        android:textSize="30dp"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnPhoto"
-        android:text="사진보기"
+        android:id="@+id/btnSignup"
+        android:text="회원가입"
         android:textSize="30dp"/>
 
 </LinearLayout>
